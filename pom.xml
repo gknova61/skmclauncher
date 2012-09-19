@@ -13,9 +13,9 @@
   </scm>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <signerKeyStore>keystore.jks
-    <signerPassword>awesomeness
-    <signerAlias>gknova61
+    <signerKeyStore>keystore.jks</signerKeyStore>
+    <signerPassword>awesomeness</signerPassword>
+    <signerAlias>gknova61</signerAlias>
   </properties>
   <repositories>
       <!-- Provides us with Simple NBT -->
