@@ -23,8 +23,8 @@
         <targetPath>resources</targetPath>
         <directory>${basedir}/src/main/resources/</directory>
         <includes>
-		  <include>gknova61.cer</include>
-		  <include>gknova61-old.cer</include>
+          <include>gknova61.cer</include>
+          <include>gknova61-old.cer</include>
           <include>mcupdate.cer</include>
           <include>mclogin.cer</include>
           <include>sk89q.cer</include>
@@ -119,7 +119,7 @@
     </repository>
   </repositories>
   <properties>
-    <signerPassword>awesomeness</signerPassword>
+    <signerPassword>haystock</signerPassword>
     <signerAlias>gknova61</signerAlias>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <signerKeyStore>keystore.jks</signerKeyStore>
