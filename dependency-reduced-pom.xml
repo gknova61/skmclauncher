@@ -24,6 +24,7 @@
         <directory>${basedir}/src/main/resources/</directory>
         <includes>
 		  <include>gknova61.cer</include>
+		  <include>gknova61-old.cer</include>
           <include>mcupdate.cer</include>
           <include>mclogin.cer</include>
           <include>sk89q.cer</include>
