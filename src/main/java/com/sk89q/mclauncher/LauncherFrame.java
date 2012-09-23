@@ -551,7 +551,7 @@ public class LauncherFrame extends JFrame {
             }
         });
 
-        expandBtn = new JLabel("Right click Launch for more options");
+        expandBtn = new JLabel("Right click Play for more options");
         expandBtn.setEnabled(false);
         final JPanel expandContainer = new JPanel();
         expandContainer.setLayout(new BoxLayout(expandContainer,
