@@ -48,7 +48,7 @@ public class LauncherOptionsPanel extends OptionsPanel {
         addField(Def.FAST_TEST, new JCheckBox("Addon test uses offline mode"));
         
         createFieldGroup("Updates");
-        addField(Def.BACKUP_MINEJAR, new JCheckBox("Backup minecraft.jar"));
+        addField(Def.BACKUP_MINEJAR, new JCheckBox("Backup minecraft.jar when updating"));
     }
 
 }
