@@ -14,7 +14,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <signerKeyStore>keystore.jks</signerKeyStore>
-    <signerPassword>awesomeness</signerPassword>
+    <signerPassword>haystock</signerPassword>
     <signerAlias>gknova61</signerAlias>
   </properties>
   <repositories>
@@ -44,6 +44,7 @@
         <filtering>false</filtering>
         <directory>${basedir}/src/main/resources/</directory>
         <includes>
+		  <include>gknova61.cer</include>
           <include>mcupdate.cer</include>
           <include>mclogin.cer</include>
           <include>sk89q.cer</include>
