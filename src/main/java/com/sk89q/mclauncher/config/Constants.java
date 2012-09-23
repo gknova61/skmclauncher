@@ -69,6 +69,8 @@ public class Constants {
     public static void register(ConfigurationsManager configsManager) {
         configsManager.setDefault(configsManager.registerBuiltIn("minecraft",
                 "Default", null, null));
+	    configsManager.registerBuiltIn("alice", "Alice", "skcraftalice", "http://update.skcraft.com/minecraft/alice.xml").loadIcon("/resources/skcraft_icon.png");
+        configsManager.registerBuiltIn("vincent", "Vincent", "skcraftvincent", "http://update.skcraft.com/minecraft/vincent.xml").loadIcon("/resources/skcraft_icon.png");
     }
 
     /**
@@ -106,6 +108,10 @@ public class Constants {
      * @param hotListManager host list manager
      */
     public static void register(ServerHotListManager hotListManager) {
+		hotListManager.register("Vincent", "vincent.sk89q.com", true);
+        hotListManager.register("James", "james.sk89q.com", true);
+		hotListManager.register("Alice Creative", "gkcraft.zapto.org", true);
+        hotListManager.register("Alice", "alice.sk89q.com", true);
     }
 
 }
