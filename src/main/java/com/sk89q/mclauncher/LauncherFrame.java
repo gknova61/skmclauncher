@@ -110,7 +110,7 @@ public class LauncherFrame extends JFrame {
      */
     public LauncherFrame() {
         setTitle("SK's Minecraft Launcher");
-        setSize(620, 500);
+        setSize(340, 500);
         
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 
