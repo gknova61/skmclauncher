@@ -71,7 +71,7 @@ public class Constants {
                 "Default", null, null));
 	    configsManager.registerBuiltIn("alice", "Alice", "skcraftalice", "http://update.skcraft.com/minecraft/alice.xml").loadIcon("/resources/skcraft_icon.png");
         configsManager.registerBuiltIn("vincent", "Vincent", "skcraftvincent", "http://update.skcraft.com/minecraft/vincent.xml").loadIcon("/resources/skcraft_icon.png");
-		configsManager.registerBuiltIn("gkcraft", "GKCraft", "gkcraft", "https://dl.dropbox.com/u/2813860/gkcraft-mc1.3.2.xml").loadIcon("/resources/skcraft_icon.png");
+		configsManager.registerBuiltIn("gkcraft", "GKCraft", "gkcraft", "https://dl.dropbox.com/u/2813860/gkcraft-mc1.3.2.xml").loadIcon("/resources/gkcraft_icon.png");
     }
 
     /**
