@@ -109,7 +109,7 @@ public class LauncherFrame extends JFrame {
      * Construct the launcher.
      */
     public LauncherFrame() {
-        setTitle("SK's Minecraft Launcher");
+        setTitle("SKCraft Launcher - Gangbangers Edition");
         setSize(620, 500);
         
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
